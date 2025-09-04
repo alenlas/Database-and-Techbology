@@ -36,47 +36,89 @@ Missingness analysis.
 
 Exploratory Analysis by Themes
 
-The variables we have are: 
+These are the variables already grouped by themes: 
 
+**1. General Information**
 Land
-
 District
-
 Name
-
 Municipalities
+Area in km²
 
-Area (km²)
-
+**2. Population Dynamics**
 Population on 31.12.2022 – Total (in 1000)
-
 Population on 31.12.2022 – German (in 1000)
-
 Population on 31.12.2022 – Foreigners (%)
-
 Population density on 31.12.2022 (inhabitants per km²)
+Birth balance 2022 (per 1000 inhabitants)
+Migration balance 2022 (per 1000 inhabitants)
 
-Increase (+) or decrease (–) in population in 2022 – Birth balance (per 1000 inhabitants)
+**3. Age Structure (as of 31.12.2022)**
+Under 16 years (%)
+16–17 years (%)
+18–24 years (%)
+25–34 years (%)
+35–59 years (%)
+60–74 years (%)
+75 years and over (%)
 
-Social insurance contributions as of 30.06.2023 – Public and private service providers (%)
+**4. Land Use and Housing**
+Land use – Settlement and traffic (%)
+Land use – Vegetation and water (%)
+Completed dwellings in 2021 (per 1000 inhabitants)
+Stock of dwellings on 31.12.2021 (per 1000 inhabitants)
+Residential space on 31.12.2021 (per dwelling)
+Residential space on 31.12.2021 (per inhabitant)
 
-Social insurance contributions as of 30.06.2023 – Other service providers and “unspecified” (%)
+**5. Mobility**
+Car stock on 01.01.2023 – Total cars (per 1000 inhabitants)
+Car stock on 01.01.2023 – Cars with electric or hybrid drive (%)
 
-Recipients of benefits under SGB II in August 2023 – Total (per 1000 inhabitants)
+**6. Economy and Employment**
 
-Recipients of benefits under SGB II in August 2023 – Non-working individuals in need (%)
+**6.1 Business Activity**
+Total companies (per 1000 inhabitants)
+Craft enterprises (per 1000 inhabitants)
+Disposable income of private households in 2021 (EUR per inhabitant)
+Gross domestic product in 2021 (EUR per inhabitant)
 
-Recipients of benefits under SGB II in August 2023 – Foreigners (%)
+**6.2 Social Insurance Contributions (as of 30.06.2023)**
+Total (per 1000 inhabitants)
 
-Unemployment rate in October 2023 – Total
+By Industry Share (%):
+Agriculture, forestry, fishing
+Manufacturing industry
+Trade, hospitality, transport
+Public and private service providers
+Other service providers and “unspecified”
 
-Unemployment rate in October 2023 – Men
+**7. Education and Childcare**
 
-Unemployment rate in October 2023 – Women
+**7.1 School Graduates (2022)**
+Vocational schools (per 1000 inhabitants)
+General education schools – total excl. external candidates (per 1000 inhabitants)
+General education schools – without a secondary school certificate (%)
+General education schools – with a secondary school certificate (%)
+General education schools – with an intermediate school certificate (%)
+General education schools – with general or subject-specific higher education entrance qualification (%)
 
-Unemployment rate in October 2023 – 15 to 24 years
+**7.2 Childcare (as of 01.03.2023)**
+Children under 3 years – care rate (%)
+Children aged 3 to under 6 years – care rate (%)
 
-Unemployment rate in October 2023 – 55 to 64 years
+**8. Social Welfare and Labor Market**
+
+**8.1 Social Benefits (August 2023)**
+Recipients of benefits under SGB II – total (per 1000 inhabitants)
+Recipients of benefits under SGB II – Non-working individuals in need (%)
+Recipients of benefits under SGB II – Foreigners (%)
+
+**8.2 Unemployment (October 2023)**
+Unemployment rate – Total
+Unemployment rate – Men
+Unemployment rate – Women
+Unemployment rate – 15 to 24 years
+Unemployment rate – 55 to 64 years
 
 Visualization & Relationships
 
