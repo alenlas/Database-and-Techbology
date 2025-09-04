@@ -36,21 +36,47 @@ Missingness analysis.
 
 Exploratory Analysis by Themes
 
-Population & Migration: total, density, foreigners %, balances.
+The variables we have are: 
 
-Age Structure: young vs. old population shares.
+Land
 
-Housing & Cars: residential space, car stock.
+District
 
-Economy & Business: GDP, disposable income, enterprises.
+Name
 
-Education: graduation types and shares.
+Municipalities
 
-Childcare: care rates for different age groups.
+Area (km²)
 
-Social Insurance & Welfare: sectoral contributions, SGB II benefits.
+Population on 31.12.2022 – Total (in 1000)
 
-Unemployment: gender and age-specific unemployment rates.
+Population on 31.12.2022 – German (in 1000)
+
+Population on 31.12.2022 – Foreigners (%)
+
+Population density on 31.12.2022 (inhabitants per km²)
+
+Increase (+) or decrease (–) in population in 2022 – Birth balance (per 1000 inhabitants)
+
+Social insurance contributions as of 30.06.2023 – Public and private service providers (%)
+
+Social insurance contributions as of 30.06.2023 – Other service providers and “unspecified” (%)
+
+Recipients of benefits under SGB II in August 2023 – Total (per 1000 inhabitants)
+
+Recipients of benefits under SGB II in August 2023 – Non-working individuals in need (%)
+
+Recipients of benefits under SGB II in August 2023 – Foreigners (%)
+
+Unemployment rate in October 2023 – Total
+
+Unemployment rate in October 2023 – Men
+
+Unemployment rate in October 2023 – Women
+
+Unemployment rate in October 2023 – 15 to 24 years
+
+Unemployment rate in October 2023 – 55 to 64 years
 
 Visualization & Relationships
 
@@ -85,7 +111,7 @@ Argumentation: Logical flow from data → analysis → interpretation.
 
 Alens Laskovs
 
-[Your Name 2]
+Linus Wössner
 
 [Your Name 3]
 
