@@ -15,7 +15,7 @@ Our goal is to explore patterns, distributions, and relationships across German 
 .
 ├── AssignmentStarterCode.ipynb   # Provided starter notebook
 ├── analysis.ipynb                # Our completed descriptive analysis
-├── ew24_structure_data.xlsx      # Structural dataset (district level)
+├── data.xlsx                     # Structural dataset (district level)
 ├── requirements.txt              # Python dependencies
 └── README.md                     # Project documentation
 

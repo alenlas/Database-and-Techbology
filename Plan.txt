@@ -1,0 +1,9 @@
+2. Data Cleaning
+
+Rename columns into a consistent format (snake_case or short descriptive names).
+
+Handle missing values (count them, decide: drop? impute? leave?).
+
+Check for duplicate rows/districts.
+
+Why: Clean structure makes the later thematic analysis much smoother.
