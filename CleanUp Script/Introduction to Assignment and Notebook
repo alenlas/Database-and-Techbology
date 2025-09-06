@@ -1,0 +1,64 @@
+### 📝 Early Checks Before Descriptive Statistics  
+
+As outlined in **Assignment 1**, our task is to conduct a *thorough descriptive analysis at the district level* using structural data from the *Statistische Ämter des Bundes und der Länder (2025)*.  
+The evaluation criteria highlight that our code must be **complete, robust, efficient, and supported by a clear line of argumentation**.  
+
+In this spirit, we first run a set of **early readiness checks** before descriptive statistics. While `.describe()` will always produce output, such results may be misleading if data types are wrong, missing values are not accounted for, or duplicates exist.  
+
+We refer to our dataset in code as **`idt_df`**, which stands for *Internet & Database Technology DataFrame*. This naming convention makes it explicit that this DataFrame contains the raw data used for our Internet & Database Technology assignment, namely, *ew24_structure_data.xlsx*.  
+
+These checks help us establish confidence in the dataset’s structure before performing statistical summaries:  
+1. **Structure** – How many rows and columns are there?  
+2. **Data types** – Are numeric variables correctly recognized, or stored as text?  
+3. **Sample values** – Do the first few rows make sense in context?  
+4. **Missingness** – Which variables contain missing values, and how extensive are they?  
+5. **Duplicates** – Are there duplicate rows that could distort later results?  
+
+These steps do **not yet clean or prepare** the dataset, but they align with the assignment’s focus on **robustness** and **argumentation**, ensuring that later descriptive statistics will be valid and interpretable.  
+
+import pandas as pd
+
+# Load raw data (adjust path if necessary)
+idt_df = pd.read_excel("ew24_structure_data.xlsx")
+
+# ------------------------------------------------------------
+# EARLY CHECKS BEFORE RUNNING DESCRIPTIVE STATISTICS
+# ------------------------------------------------------------
+
+# 1. Dataset structure
+print("Shape (rows, cols):", idt_df.shape)
+print("\nColumn names:\n", idt_df.columns.tolist())
+# --> Helps confirm what each row/column represents.
+
+# 2. Data types
+print("\nColumn dtypes:\n", idt_df.dtypes)
+# --> 'object' may mean text, but could also hide numbers stored as strings.
+
+# 3. Sample values
+print("\nHead (first 5 rows):\n", idt_df.head())
+# --> Quick reality check: do the values match our expectations?
+
+# 4. Missing values
+print("\nMissing values per column:\n", idt_df.isna().sum())
+# --> Important: descriptives do not distinguish between "0" and "missing".
+
+# 5. Duplicate rows
+print("\nNumber of duplicate rows:", idt_df.duplicated().sum())
+# --> Prevents certain districts being counted twice.
+
+# ------------------------------------------------------------
+# These are sanity checks, not data cleaning.
+# They ensure our descriptive statistics later on
+# reflect the true structure of the dataset.
+# ------------------------------------------------------------
+### 📝 Interpreting the Early Checks  
+
+The results of these readiness checks guide how we approach descriptive statistics:  
+
+- If **many columns appear as `object`**, we must inspect whether they are truly text (e.g., names, codes) or numeric data stored as strings (e.g., "34%").  
+- If there is **extensive missingness**, we need to decide how to treat those variables (drop, impute, or note as a limitation).  
+- If **duplicate rows** exist, we need to investigate whether they are data errors or reflect genuine cases.  
+- If values look implausible (e.g., negative populations, percentages > 100), we must flag them for correction before analysis.  
+
+By interpreting these checks, we ensure that subsequent descriptive statistics are **robust, interpretable, and consistent with the assignment’s evaluation criteria**.  
+
