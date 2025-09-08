@@ -62,3 +62,35 @@ The results of these readiness checks guide how we approach descriptive statisti
 
 By interpreting these checks, we ensure that subsequent descriptive statistics are **robust, interpretable, and consistent with the assignment’s evaluation criteria**.  
 
+
+
+
+<!-- What to compare with your columns (quick checklist) -->
+
+1) Population change mechanics: birth_balance_per_1000 vs migration_balance_per_1000 (who grows how). 
+
+2) Structure & density: population_density…, % foreigners, age bands (under 16 / 16–17 / 18–24 / 25–34 / 35–59 / 60–74 / 75+).
+
+3) Housing pressure & stock: completed_dwellings_per_1000, stock_of_dwellings_per_1000, residential_space_per_dwelling, residential_space_per_inhabitant.
+
+4) Prosperity & output: disposable_income_per_inhabitant, gdp_per_inhabitant.
+
+5) Labour market: unemployment_rate_total (+ men/women/youth/55–64).
+
+6) Business dynamics: business_total_per_1000, business_craft_per_1000.
+
+7) Mobility & urban form: car_stock_per_1000, cars_electric_or_hybrid_pct, settlement_and_traffic_pct vs vegetation_and_water_pct.
+
+8) Family & inclusion: childcare rates (under 3; 3–<6), sgb_ii_recipients_per_1000 (+ % foreigners, % non-working).
+
+9) Economic structure: social-insurance contribution shares (agri, manufacturing, trade/hospitality/transport, public/private services, other).
+
+Population change mechanics: Scatter plot, Stem plot, Horizontal bar chart, Line plot
+Structure & density: Stacked bar chart, Horizontal bar chart, Violin plot, Box plot, Histogram
+Housing pressure & stock: Grouped bar chart, Stacked bar chart, Heatmap, Violin plot
+Prosperity & output: Scatter plot, Bar chart, Heatmap
+Labour market: Box plot, Violin plot, Horizontal bar chart, Heatmap
+Business dynamics: Scatter plot, Bar chart, Hexbin plot
+Mobility & urban form: Scatter plot, Stacked bar chart, Pie chart, Heatmap
+Family & inclusion: Scatter plot, Box plot, Heatmap, Bar chart
+Economic structure: Stacked bar chart, Sankey diagram, Radar chart
